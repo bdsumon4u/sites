@@ -9,6 +9,7 @@ use Filament\Pages;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\Tables\Table;
 use Filament\Widgets;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
@@ -25,7 +26,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->path('admin')
+            ->path('')
             ->login()
             ->colors([
                 'primary' => Color::Neutral,
@@ -55,5 +56,13 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->spa();
+    }
+
+    public function boot(): void
+    {
+        Table::$defaultCurrency = 'bdt';
+        Table::$defaultDateDisplayFormat = 'd-M-Y';
+        Table::$defaultTimeDisplayFormat = 'h:i A';
+        Table::$defaultDateTimeDisplayFormat = 'd-M-Y h:i A';
     }
 }
