@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'whm' => [
+        'user' => env('WHM_USER'),
+        'token' => env('WHM_TOKEN'),
+        'endpoint' => env('WHM_ENDPOINT'),
+    ],
+
+    'ssh' => [
+        'dir' => env('SSH_DIR'),
+    ],
+
 ];
