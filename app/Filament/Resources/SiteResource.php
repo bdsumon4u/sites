@@ -100,11 +100,11 @@ class SiteResource extends Resource
                             Forms\Components\TextInput::make('mail_pass')
                                 ->label('Password')
                                 ->required()
-                                ->default(Str::password(10))
+                                ->default(Str::random(10))
                                 ->suffixAction(
                                     Forms\Components\Actions\Action::make('generate')
                                         ->icon('heroicon-o-arrow-path')
-                                        ->action(fn ($component) => $component->state(Str::password(10)))
+                                        ->action(fn ($component) => $component->state(Str::random(10)))
                                 ),
                         ])
                         ->columns(2)
@@ -135,12 +135,12 @@ class SiteResource extends Resource
                                 ),
                             Forms\Components\TextInput::make('db_pass')
                                 ->label('Password')
-                                ->default(Str::password(10))
+                                ->default(Str::random(10))
                                 ->required()
                                 ->suffixAction(
                                     Forms\Components\Actions\Action::make('generate')
                                         ->icon('heroicon-o-arrow-path')
-                                        ->action(fn ($component) => $component->state(Str::password(10)))
+                                        ->action(fn ($component) => $component->state(Str::random(10)))
                                 ),
                         ])
                         ->columns(3)
