@@ -165,7 +165,11 @@ class SiteResource extends Resource
                     ->searchable()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('domain')
+                    ->url(fn ($record) => 'https://'.$record->domain)
                     ->label('Domain')
+                    ->openUrlInNewTab()
+                    ->iconPosition('after')
+                    ->icon('heroicon-o-link')
                     ->searchable()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('updated_at')
