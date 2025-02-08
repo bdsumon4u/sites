@@ -10,8 +10,13 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('/sites', function (Request $request) {
-    return Site::all(['uname', 'directory'])->map(function ($site) {
-        return ['uname' => $site->uname, 'script' => 'cd '.$site->directory.' && ./server_deploy.sh'];
+    return Site::all(['uname', 'domain', 'directory', 'status'])->map(function ($site) {
+        return [
+            'uname' => $site->uname,
+            'domain' => $site->domain,
+            'status' => $site->status,
+            'script' => 'cd '.$site->directory.' && ./server_deploy.sh',
+        ];
     });
 });
 
