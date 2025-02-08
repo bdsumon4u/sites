@@ -11,22 +11,27 @@ class UpdateSite extends _SiteJob
      */
     public function handle(): void
     {
-        $process = Ssh::create($this->data['uname'], 'cyber32.net')
-            ->usePrivateKey(config('services.ssh.dir').'GACD')
-            ->disablePasswordAuthentication()
-            ->disableStrictHostKeyChecking()
-            ->enableQuietMode()
-            ->setTimeout(120)
-            ->execute([
-                'cd '.$this->data['directory'],
-                './server_deploy.sh',
-            ]);
+        try {
+            $process = Ssh::create($this->data['uname'], 'cyber32.net')
+                ->usePrivateKey(config('services.ssh.dir').'GACD')
+                ->disablePasswordAuthentication()
+                ->disableStrictHostKeyChecking()
+                ->enableQuietMode()
+                ->setTimeout(60)
+                ->execute([
+                    'cd '.$this->data['directory'],
+                    './server_deploy.sh',
+                ]);
 
-        if (! $process->isSuccessful()) {
+            if (! $process->isSuccessful()) {
+                $this->markSiteAsFailed();
+                throw new \RuntimeException('SSH command failed: '.$process->getErrorOutput());
+            }
+            $this->markSiteAsActive();
+        } catch (\Exception $e) {
             $this->markSiteAsFailed();
-            throw new \Exception($process->getErrorOutput());
+            // Log the exception message to capture more details
+            throw new \RuntimeException('SSH connection failed, please check the server and public key setup. Error: '.$e->getMessage());
         }
-
-        $this->markSiteAsActive();
     }
 }
