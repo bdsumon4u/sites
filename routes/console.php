@@ -13,3 +13,10 @@ Schedule::command('queue:work --tries=3 --delay=60 --stop-when-empty')
     ->runInBackground()
     ->withoutOverlapping()
     ->appendOutputTo(storage_path('logs/queue.log'));
+
+Schedule::command('sites:dispatch-checks')
+    ->dailyAt('02:00')
+    ->timezone('Asia/Dhaka')
+    ->runInBackground()
+    ->withoutOverlapping()
+    ->appendOutputTo(storage_path('logs/queue.log'));
