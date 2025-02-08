@@ -24,7 +24,7 @@ class DeploySite extends _SiteJob
      */
     public function handle(): void
     {
-        $process = Ssh::create($this->parent->uname, 'cyber32.net')
+        $process = Ssh::create($this->parent->uname, $this->parent->domain)
             ->usePrivateKey(config('services.ssh.dir').'GACD')
             ->disablePasswordAuthentication()
             ->disableStrictHostKeyChecking()
