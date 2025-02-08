@@ -8,6 +8,7 @@ use App\Jobs\ChangePhpVersion;
 use App\Jobs\CreateDatabaseAndUser;
 use App\Jobs\CreateEmailAccount;
 use App\Jobs\DeploySite;
+use App\Jobs\UpdateSite;
 use Filament\Resources\Pages\CreateRecord;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Bus;
@@ -16,6 +17,8 @@ use Throwable;
 
 class CreateSite extends CreateRecord
 {
+    protected ?bool $hasDatabaseTransactions = true;
+
     protected static string $resource = SiteResource::class;
 
     protected function mutateFormDataBeforeCreate(array $data): array
@@ -27,6 +30,11 @@ class CreateSite extends CreateRecord
 
     protected function afterCreate()
     {
+        // if copy_from was not set, then update the site
+        if (! Arr::get($this->form->getState(), 'copy_from')) {
+            return UpdateSite::dispatch($this->form->getState());
+        }
+
         Bus::chain([
             new AuthorizeSshKey($this->form->getState()),
             // new ChangePhpVersion($this->form->getState()),

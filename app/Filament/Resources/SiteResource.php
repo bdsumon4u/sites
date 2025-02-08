@@ -51,15 +51,15 @@ class SiteResource extends Resource
                     ->disabled()
                     ->collapsible(),
                 Forms\Components\Group::make([
-                    Forms\Components\TextInput::make('site_name')
-                        ->label('Site Name')
-                        ->required(),
                     Forms\Components\Select::make('copy_from')
                         ->label('Copy From')
                         ->options(fn () => Site::query()->pluck('domain', 'id')->toArray())
                         ->searchable()
-                        ->default(1)
-                        ->required(),
+                        ->live(),
+                    Forms\Components\TextInput::make('site_name')
+                        ->label('Site Name')
+                        ->required(fn (Forms\Get $get) => $get('copy_from'))
+                        ->disabled(fn (Forms\Get $get) => ! $get('copy_from')),
                     Forms\Components\Section::make('cPanel')
                         ->schema([
                             Forms\Components\Grid::make(2)
@@ -146,6 +146,7 @@ class SiteResource extends Resource
                         ->columns(3)
                         ->columnSpan(1),
                 ])
+                    ->disabled(fn (Forms\Get $get) => ! $get('copy_from'))
                     ->columnSpan(3),
             ])
             ->columns(5);
@@ -193,12 +194,14 @@ class SiteResource extends Resource
                         'Active' => 'heroicon-o-check-circle',
                         'Paused' => 'heroicon-o-pause-circle',
                         'Failed' => 'heroicon-o-exclamation-circle',
+                        'Outage' => 'heroicon-o-arrow-down-circle',
                         default => 'heroicon-o-arrow-path-rounded-square',
                     })
                     ->color(fn ($state) => match ($state) {
                         'Active' => 'success',
                         'Paused' => 'danger',
                         'Failed' => 'danger',
+                        'Outage' => 'warning',
                         default => 'neutral',
                     })
                     ->disabledClick(function ($state, $record) {
@@ -206,13 +209,12 @@ class SiteResource extends Resource
                             return true; // Deployment failed.
                         }
 
-                        return ! in_array($state, ['Active', 'Paused', 'Failed']);
+                        return $state == 'Processing'; // Deployment is in progress.
                     })
                     ->action(function ($record) {
                         $record->update(['status' => match ($record->status) {
-                            'Failed' => 'Processing',
-                            'Paused' => 'Processing',
                             'Active' => 'Paused',
+                            default => 'Processing',
                         }]);
 
                         UpdateSite::dispatchIf($record->status == 'Processing', $record->toArray());
