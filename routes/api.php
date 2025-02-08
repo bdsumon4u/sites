@@ -9,16 +9,15 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::get('/sites', function (Request $request) {
-    return Site::all(['uname', 'domain', 'directory', 'status'])->map(function ($site) {
-        return [
-            'uname' => $site->uname,
-            'domain' => $site->domain,
-            'status' => $site->status,
-            'script' => 'cd '.$site->directory.' && ./server_deploy.sh',
-        ];
-    });
-});
+Route::get('/sites', fn (Request $request) => Site::query()
+    ->when($request->status, fn ($query, $status) => $query->where('status', $status))
+    ->get(['uname', 'domain', 'status', 'service_id'])
+    ->map(fn (Site $site) => [
+        'uname' => $site->uname,
+        'domain' => $site->domain,
+        'status' => $site->status,
+        'script' => 'cd '.$site->directory.' && ./server_deploy.sh',
+    ]));
 
 Route::post('/update', function (Request $request) {
     if ($request->secret != config('services.whm.token')) {
