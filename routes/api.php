@@ -11,6 +11,7 @@ Route::get('/user', function (Request $request) {
 
 Route::get('/sites', fn (Request $request) => Site::query()
     ->when($request->status, fn ($query, $status) => $query->where('status', $status))
+    ->orderBy('status')
     ->get(['uname', 'domain', 'status', 'service_id'])
     ->map(fn (Site $site) => [
         'uname' => $site->uname,
