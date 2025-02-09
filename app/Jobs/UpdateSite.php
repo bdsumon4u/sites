@@ -12,7 +12,7 @@ class UpdateSite extends _SiteJob
     public function handle(): void
     {
         try {
-            $process = Ssh::create($this->data['uname'], $this->data['domain'])
+            $process = Ssh::create($this->data['uname'], $this->server->ip)
                 ->usePrivateKey(config('services.ssh.dir').'GACD')
                 ->disablePasswordAuthentication()
                 ->disableStrictHostKeyChecking()

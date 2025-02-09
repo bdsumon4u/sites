@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Models\Server;
 use Illuminate\Support\Facades\Http;
 
 class CPanel
@@ -12,6 +13,7 @@ class CPanel
     public function __construct(
         private int $version,
         private string $user,
+        private Server $server,
         private string $module,
     ) {
         //
@@ -24,11 +26,11 @@ class CPanel
 
     public function api($action, $params = [], $key = null)
     {
-        $user = config('services.whm.user');
-        $token = config('services.whm.token');
+        $user = $this->server->username;
+        $token = $this->server->token;
 
         return Http::withHeader('Authorization', "whm $user:$token")
-            ->get(config('services.whm.endpoint'), [
+            ->get($this->server->endpoint, [
                 'api.version' => 1,
                 'cpanel_jsonapi_func' => $action,
                 'cpanel_jsonapi_user' => $this->user,

@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Models\Server;
 use App\Models\Site;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -13,28 +14,26 @@ abstract class _SiteJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    private Site $site;
+    protected Site $site;
+
+    protected Server $server;
 
     public function __construct(
         protected array $data,
     ) {
-        //
+        $this->server = Server::findOrFail($this->data['server_id']);
+        $this->site = Site::query()->where('domain', $this->data['domain'])->firstOrFail();
     }
 
     abstract public function handle(): void;
 
     protected function markSiteAsActive(): void
     {
-        $this->getSite()->update(['status' => 'Active']);
+        $this->site->update(['status' => 'Active']);
     }
 
     protected function markSiteAsFailed(): void
     {
-        Site::withoutTimestamps(fn () => $this->getSite()->update(['status' => 'Failed']));
-    }
-
-    private function getSite(): Site
-    {
-        return $this->site = Site::query()->where('domain', $this->data['domain'])->firstOrFail();
+        Site::withoutTimestamps(fn () => $this->site->update(['status' => 'Failed']));
     }
 }

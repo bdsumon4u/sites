@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\CPanel;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 
 class CreateDatabaseAndUser extends _SiteJob
@@ -12,7 +12,8 @@ class CreateDatabaseAndUser extends _SiteJob
      */
     public function handle(): void
     {
-        $cPanel = CPanel::make(3, $this->data['uname'], 'Mysql');
+        Log::info('Creating database and user for '.$this->data['domain']);
+        $cPanel = $this->server->cPanel(3, $this->data['uname'], 'Mysql');
 
         $data = $cPanel->api('create_database', [
             'name' => $this->data['db_name'],

@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\CPanel;
+use Illuminate\Support\Facades\Log;
 
 class AuthorizeSshKey extends _SiteJob
 {
@@ -11,7 +11,8 @@ class AuthorizeSshKey extends _SiteJob
      */
     public function handle(): void
     {
-        $data = CPanel::make(2, $this->data['uname'], 'SSH')->api('authkey', [
+        Log::info('Authorizing SSH key for '.$this->data['uname']);
+        $data = $this->server->cPanel(2, $this->data['uname'], 'SSH')->api('authkey', [
             'key' => 'GACD',
             'action' => 'authorize',
         ], 'cpanelresult');

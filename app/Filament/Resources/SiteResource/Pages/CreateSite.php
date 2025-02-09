@@ -5,6 +5,7 @@ namespace App\Filament\Resources\SiteResource\Pages;
 use App\Filament\Resources\SiteResource;
 use App\Jobs\AuthorizeSshKey;
 use App\Jobs\ChangePhpVersion;
+use App\Jobs\CreateAddonDomain;
 use App\Jobs\CreateDatabaseAndUser;
 use App\Jobs\CreateEmailAccount;
 use App\Jobs\DeploySite;
@@ -32,12 +33,15 @@ class CreateSite extends CreateRecord
     {
         // if copy_from was not set, then update the site
         if (! Arr::get($this->form->getState(), 'copy_from')) {
+            Log::info('Update site because copy_from was not set');
+
             return UpdateSite::dispatch($this->form->getState());
         }
 
         Bus::chain([
             new AuthorizeSshKey($this->form->getState()),
             // new ChangePhpVersion($this->form->getState()),
+            new CreateAddonDomain($this->form->getState()),
             new CreateEmailAccount($this->form->getState()),
             new CreateDatabaseAndUser($this->form->getState()),
             new DeploySite($this->form->getState()),

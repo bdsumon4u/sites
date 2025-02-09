@@ -2,7 +2,7 @@
 
 namespace App\Jobs;
 
-use App\CPanel;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
 
 class CreateEmailAccount extends _SiteJob
@@ -12,7 +12,8 @@ class CreateEmailAccount extends _SiteJob
      */
     public function handle(): void
     {
-        $cPanel = CPanel::make(3, $this->data['uname'], 'Email');
+        Log::info('Creating email account '.$this->data['mail_user']);
+        $cPanel = $this->server->cPanel(3, $this->data['uname'], 'Email');
 
         $data = $cPanel->api('add_pop', [
             'email' => $this->data['mail_user'],

@@ -24,6 +24,29 @@ class SiteResource extends Resource
 
     public static function form(Form $form): Form
     {
+        $serverForm = [
+            Forms\Components\Grid::make(2)
+                ->schema([
+                    Forms\Components\TextInput::make('ip')
+                        ->label('IP')
+                        ->required(),
+                    Forms\Components\TextInput::make('name')
+                        ->label('Name')
+                        ->required(),
+                    Forms\Components\TextInput::make('token')
+                        ->label('Token')
+                        ->required(fn (string $operation): bool => $operation === 'createOption')
+                        ->dehydrated(fn (?string $state): bool => filled($state)),
+                    Forms\Components\TextInput::make('username')
+                        ->label('Username')
+                        ->required(),
+                    Forms\Components\TextInput::make('endpoint')
+                        ->label('Endpoint')
+                        ->required()
+                        ->columnSpanFull(),
+                ]),
+        ];
+
         return $form
             ->schema([
                 Forms\Components\Section::make('SSH')
@@ -64,6 +87,14 @@ class SiteResource extends Resource
                         ->schema([
                             Forms\Components\Grid::make(2)
                                 ->schema([
+                                    Forms\Components\Select::make('server_id')
+                                        ->relationship('server', 'name')
+                                        ->searchable()
+                                        ->preload()
+                                        ->required()
+                                        ->columnSpanFull()
+                                        ->createOptionForm($serverForm)
+                                        ->editOptionForm($serverForm),
                                     Forms\Components\TextInput::make('service_id')
                                         ->label('Service ID')
                                         ->integer(),
@@ -156,6 +187,10 @@ class SiteResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('server.name')
+                    ->label('Server')
+                    ->searchable()
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('service_id')
                     ->label('Service ID')
                     ->searchable()
