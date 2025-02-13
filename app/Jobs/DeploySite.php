@@ -31,7 +31,7 @@ class DeploySite extends _SiteJob
             ->disablePasswordAuthentication()
             ->disableStrictHostKeyChecking()
             ->enableQuietMode()
-            ->setTimeout(300)
+            ->setTimeout(600)
             ->execute([
                 'cd '.$this->parent->directory,
                 './copy.sh '.collect([
