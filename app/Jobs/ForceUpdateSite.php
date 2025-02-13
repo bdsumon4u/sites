@@ -25,7 +25,7 @@ class ForceUpdateSite extends _SiteJob
                 ->disablePasswordAuthentication()
                 ->disableStrictHostKeyChecking()
                 ->enableQuietMode()
-                ->setTimeout(60)
+                ->setTimeout(600)
                 ->execute([
                     'cd '.$this->data['directory'],
                     'rm -rf .git',
