@@ -274,6 +274,8 @@ class SiteResource extends Resource
                     ->icon('heroicon-o-arrow-up-circle')
                     ->color(Color::Blue)
                     ->action(function ($record) {
+                        $record->update(['status' => 'Processing']);
+
                         ForceUpdateSite::dispatch($record->toArray());
 
                         return Notification::make()

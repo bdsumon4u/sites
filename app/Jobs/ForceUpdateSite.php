@@ -17,8 +17,6 @@ class ForceUpdateSite extends _SiteJob
      */
     public function handle(): void
     {
-        $this->site->update(['status' => 'Processing']);
-
         try {
             $process = Ssh::create($this->data['uname'], $this->server->ip)
                 ->usePrivateKey(config('services.ssh.dir').'GACD')
