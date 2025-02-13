@@ -3,6 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\SiteResource\Pages;
+use App\Jobs\ForceUpdateSite;
 use App\Jobs\UpdateSite;
 use App\Models\Site;
 use Filament\Forms;
@@ -268,6 +269,18 @@ class SiteResource extends Resource
             ])
             ->actions([
                 // Tables\Actions\EditAction::make(),
+                Tables\Actions\Action::make('force_update')
+                    ->label('Force Update')
+                    ->icon('heroicon-o-arrow-up-circle')
+                    ->color(Color::Blue)
+                    ->action(function ($record) {
+                        ForceUpdateSite::dispatch($record->toArray());
+
+                        return Notification::make()
+                            ->title('Site is being updated')
+                            ->success()
+                            ->send();
+                    }),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
