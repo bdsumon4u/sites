@@ -30,7 +30,7 @@ class CreateEmailAccount extends _SiteJob
 
             if (! $data['status']) {
                 $this->markSiteAsFailed();
-                throw new \Exception($data['errors']);
+                throw new \Exception(current($data['errors']));
             }
         }
     }
