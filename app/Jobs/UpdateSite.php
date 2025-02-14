@@ -17,7 +17,7 @@ class UpdateSite extends _SiteJob
                 ->disablePasswordAuthentication()
                 ->disableStrictHostKeyChecking()
                 ->enableQuietMode()
-                ->setTimeout(60)
+                ->setTimeout(600)
                 ->execute([
                     'cd '.$this->data['directory'],
                     './server_deploy.sh',
