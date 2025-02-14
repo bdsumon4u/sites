@@ -24,6 +24,7 @@ class CreateEmailAccount extends _SiteJob
             throw_unless(Str::endsWith($error = current($data['errors']), 'already exists!'), $error);
 
             $data = $cPanel->api('passwd_pop', [
+                'domain' => $this->data['domain'],
                 'email' => $this->data['mail_user'],
                 'password' => $this->data['mail_pass'],
             ], 'result');
