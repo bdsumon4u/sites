@@ -10,6 +10,7 @@ use App\Jobs\CreateDatabaseAndUser;
 use App\Jobs\CreateEmailAccount;
 use App\Jobs\DeploySite;
 use App\Jobs\ForceUpdateSite;
+use App\Jobs\UpdateSite;
 use Filament\Resources\Pages\CreateRecord;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Bus;
@@ -35,7 +36,7 @@ class CreateSite extends CreateRecord
         if (! Arr::get($this->form->getState(), 'copy_from')) {
             Log::info('Update site because copy_from was not set');
 
-            return ForceUpdateSite::dispatch($this->form->getState());
+            return UpdateSite::dispatch($this->form->getState());
         }
 
         Bus::chain([
