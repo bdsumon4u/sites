@@ -31,6 +31,7 @@ class ForceUpdateSite extends _SiteJob
                     'git remote add origin https://github.com/bdsumon4u/HotashKom.git',
                     'git fetch',
                     'git clean -fd -e .env -e storage/app/public',
+                    'rm -f storage/app/public/.gitignore',
                     'git pull origin master',
 
                     // Check and update/add CACHE_DRIVER
