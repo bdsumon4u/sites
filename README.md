@@ -30,7 +30,7 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 ## Our Deployments
 This platform is managing 🔥 $${\color{red}266}$$ 🔥 websites
 
-_Last updated: **2025-02-26 08:54:19 Asia/Dhaka**_
+_Last updated: **2025-02-27 08:55:30 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -64,10 +64,10 @@ _Last updated: **2025-02-26 08:54:19 Asia/Dhaka**_
 | 28 | [naharemart.com](http://naharemart.com) | Active |
 | 29 | [shephalistore.com](http://shephalistore.com) | Active |
 | 30 | [honestshop24.com](http://honestshop24.com) | Active |
-| 31 | [emaxbd.com](http://emaxbd.com) | Active |
-| 32 | [asell.com.bd](http://asell.com.bd) | Active |
-| 33 | [banglashop24.com](http://banglashop24.com) | Active |
-| 34 | [ecom.sebaitsolutions.com](http://ecom.sebaitsolutions.com) | Active |
+| 31 | [realgreenbd.com](http://realgreenbd.com) | Active |
+| 32 | [emaxbd.com](http://emaxbd.com) | Active |
+| 33 | [asell.com.bd](http://asell.com.bd) | Active |
+| 34 | [banglashop24.com](http://banglashop24.com) | Active |
 | 35 | [akshopbd.com](http://akshopbd.com) | Active |
 | 36 | [alambazar.com](http://alambazar.com) | Active |
 | 37 | [alwajeed.com](http://alwajeed.com) | Active |
@@ -295,8 +295,8 @@ _Last updated: **2025-02-26 08:54:19 Asia/Dhaka**_
 | 259 | [shopnerdokanbd.com](http://shopnerdokanbd.com) | Failed |
 | 260 | [kalbtradebd.com](http://kalbtradebd.com) | Outage |
 | 261 | [netc24.com](http://netc24.com) | Outage |
-| 262 | [realgreenbd.com](http://realgreenbd.com) | Outage |
-| 263 | [ibnatbd.com](http://ibnatbd.com) | Outage |
-| 264 | [nababazar.com](http://nababazar.com) | Outage |
-| 265 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
+| 262 | [ibnatbd.com](http://ibnatbd.com) | Outage |
+| 263 | [nababazar.com](http://nababazar.com) | Outage |
+| 264 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
+| 265 | [ecom.sebaitsolutions.com](http://ecom.sebaitsolutions.com) | Outage |
 | 266 | [5starmartbd.com](http://5starmartbd.com) | Outage |
