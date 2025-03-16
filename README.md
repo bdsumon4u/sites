@@ -30,7 +30,7 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 ## Our Deployments
 This platform is managing 🔥 $${\color{red}275}$$ 🔥 websites
 
-_Last updated: **2025-03-15 08:55:14 Asia/Dhaka**_
+_Last updated: **2025-03-16 09:02:35 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -304,8 +304,8 @@ _Last updated: **2025-03-15 08:55:14 Asia/Dhaka**_
 | 268 | [ibnatbd.com](http://ibnatbd.com) | Outage |
 | 269 | [nababazar.com](http://nababazar.com) | Outage |
 | 270 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
-| 271 | [sunnahtexbd.com](http://sunnahtexbd.com) | Outage |
-| 272 | [bigvaly.com](http://bigvaly.com) | Outage |
+| 271 | [bigvaly.com](http://bigvaly.com) | Outage |
+| 272 | [gazipurbazarbd.com](http://gazipurbazarbd.com) | Outage |
 | 273 | [sfonline.com](http://sfonline.com) | Outage |
 | 274 | [5starmartbd.com](http://5starmartbd.com) | Outage |
 | 275 | [icchabd.com](http://icchabd.com) | Paused |
