@@ -30,7 +30,7 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 ## Our Deployments
 This platform is managing 🔥 $${\color{red}297}$$ 🔥 websites
 
-_Last updated: **2025-04-29 09:09:04 Asia/Dhaka**_
+_Last updated: **2025-04-30 09:09:00 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -61,11 +61,11 @@ _Last updated: **2025-04-29 09:09:04 Asia/Dhaka**_
 | 25 | [realgreenbd.com](http://realgreenbd.com) | Active |
 | 26 | [bmconlinemart.com](http://bmconlinemart.com) | Active |
 | 27 | [fashionbaribd.com](http://fashionbaribd.com) | Active |
-| 28 | [emaxbd.com](http://emaxbd.com) | Active |
-| 29 | [muajeshop.com](http://muajeshop.com) | Active |
-| 30 | [asell.com.bd](http://asell.com.bd) | Active |
-| 31 | [fatemashopbd.com](http://fatemashopbd.com) | Active |
-| 32 | [banglashop24.com](http://banglashop24.com) | Active |
+| 28 | [muajeshop.com](http://muajeshop.com) | Active |
+| 29 | [asell.com.bd](http://asell.com.bd) | Active |
+| 30 | [fatemashopbd.com](http://fatemashopbd.com) | Active |
+| 31 | [banglashop24.com](http://banglashop24.com) | Active |
+| 32 | [kidsneedsbd.net](http://kidsneedsbd.net) | Active |
 | 33 | [praptyorganic.com](http://praptyorganic.com) | Active |
 | 34 | [phindabd.com](http://phindabd.com) | Active |
 | 35 | [ecom.sebaitsolutions.com](http://ecom.sebaitsolutions.com) | Active |
@@ -322,7 +322,7 @@ _Last updated: **2025-04-29 09:09:04 Asia/Dhaka**_
 | 286 | [bagstorebd.com](http://bagstorebd.com) | Outage |
 | 287 | [smbazarbd.com](http://smbazarbd.com) | Outage |
 | 288 | [netc24.com](http://netc24.com) | Outage |
-| 289 | [kidsneedsbd.net](http://kidsneedsbd.net) | Outage |
+| 289 | [emaxbd.com](http://emaxbd.com) | Outage |
 | 290 | [ibnatbd.com](http://ibnatbd.com) | Outage |
 | 291 | [nababazar.com](http://nababazar.com) | Outage |
 | 292 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
