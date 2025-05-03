@@ -28,9 +28,9 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 - MySQL/MariaDB Database
 - Queue System for Background Jobs
 ## Our Deployments
-This platform is managing 🔥 $${\color{red}297}$$ 🔥 websites
+This platform is managing 🔥 $${\color{red}299}$$ 🔥 websites
 
-_Last updated: **2025-05-02 09:10:53 Asia/Dhaka**_
+_Last updated: **2025-05-03 09:07:32 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -317,17 +317,19 @@ _Last updated: **2025-05-02 09:10:53 Asia/Dhaka**_
 | 281 | [bideshiherbal.com](http://bideshiherbal.com) | Failed |
 | 282 | [gadgetbd71.com](http://gadgetbd71.com) | Failed |
 | 283 | [shopnerdokanbd.com](http://shopnerdokanbd.com) | Failed |
-| 284 | [kalbtradebd.com](http://kalbtradebd.com) | Outage |
-| 285 | [jarifmart.com](http://jarifmart.com) | Outage |
-| 286 | [bsbazarbd.com](http://bsbazarbd.com) | Outage |
-| 287 | [bagstorebd.com](http://bagstorebd.com) | Outage |
-| 288 | [smbazarbd.com](http://smbazarbd.com) | Outage |
-| 289 | [netc24.com](http://netc24.com) | Outage |
-| 290 | [ibnatbd.com](http://ibnatbd.com) | Outage |
-| 291 | [nababazar.com](http://nababazar.com) | Outage |
-| 292 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
-| 293 | [bigvaly.com](http://bigvaly.com) | Outage |
-| 294 | [ayatcollection.com](http://ayatcollection.com) | Outage |
-| 295 | [sfonline.com](http://sfonline.com) | Outage |
-| 296 | [5starmartbd.com](http://5starmartbd.com) | Outage |
-| 297 | [icchabd.com](http://icchabd.com) | Paused |
+| 284 | [beta.oninda.com](http://beta.oninda.com) | Failed |
+| 285 | [purebazaarbd.com](http://purebazaarbd.com) | Failed |
+| 286 | [kalbtradebd.com](http://kalbtradebd.com) | Outage |
+| 287 | [jarifmart.com](http://jarifmart.com) | Outage |
+| 288 | [bsbazarbd.com](http://bsbazarbd.com) | Outage |
+| 289 | [bagstorebd.com](http://bagstorebd.com) | Outage |
+| 290 | [smbazarbd.com](http://smbazarbd.com) | Outage |
+| 291 | [netc24.com](http://netc24.com) | Outage |
+| 292 | [ibnatbd.com](http://ibnatbd.com) | Outage |
+| 293 | [nababazar.com](http://nababazar.com) | Outage |
+| 294 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
+| 295 | [bigvaly.com](http://bigvaly.com) | Outage |
+| 296 | [ayatcollection.com](http://ayatcollection.com) | Outage |
+| 297 | [sfonline.com](http://sfonline.com) | Outage |
+| 298 | [5starmartbd.com](http://5starmartbd.com) | Outage |
+| 299 | [icchabd.com](http://icchabd.com) | Paused |
