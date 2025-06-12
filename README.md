@@ -28,9 +28,9 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 - MySQL/MariaDB Database
 - Queue System for Background Jobs
 ## Our Deployments
-This platform is managing 🔥 $${\color{red}366}$$ 🔥 websites
+This platform is managing 🔥 $${\color{red}367}$$ 🔥 websites
 
-_Last updated: **2025-06-11 09:20:09 Asia/Dhaka**_
+_Last updated: **2025-06-12 09:18:46 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -362,41 +362,42 @@ _Last updated: **2025-06-11 09:20:09 Asia/Dhaka**_
 | 326 | [bideshiherbal.com](http://bideshiherbal.com) | Failed |
 | 327 | [gadgetbd71.com](http://gadgetbd71.com) | Failed |
 | 328 | [shopnerdokanbd.com](http://shopnerdokanbd.com) | Failed |
-| 329 | [asbabbd.com](http://asbabbd.com) | Outage |
-| 330 | [kalbtradebd.com](http://kalbtradebd.com) | Outage |
-| 331 | [jarifmart.com](http://jarifmart.com) | Outage |
-| 332 | [bsbazarbd.com](http://bsbazarbd.com) | Outage |
-| 333 | [netc24.com](http://netc24.com) | Outage |
-| 334 | [realgreenbd.com](http://realgreenbd.com) | Outage |
-| 335 | [kidsneedsbd.net](http://kidsneedsbd.net) | Outage |
-| 336 | [ibnatbd.com](http://ibnatbd.com) | Outage |
-| 337 | [nababazar.com](http://nababazar.com) | Outage |
-| 338 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
-| 339 | [akshopbd.com](http://akshopbd.com) | Outage |
-| 340 | [bigvaly.com](http://bigvaly.com) | Outage |
-| 341 | [alwajeed.com](http://alwajeed.com) | Outage |
-| 342 | [buyblendbd.com](http://buyblendbd.com) | Outage |
-| 343 | [growupzonebd.com](http://growupzonebd.com) | Outage |
-| 344 | [ayatcollection.com](http://ayatcollection.com) | Outage |
-| 345 | [comboshoppingbd.com](http://comboshoppingbd.com) | Outage |
-| 346 | [3eshopbd.com](http://3eshopbd.com) | Outage |
-| 347 | [sfonline.com](http://sfonline.com) | Outage |
-| 348 | [5starmartbd.com](http://5starmartbd.com) | Outage |
-| 349 | [abiremart.com](http://abiremart.com) | Outage |
-| 350 | [njonlineshopbd.com](http://njonlineshopbd.com) | Outage |
-| 351 | [labbaikemart.com](http://labbaikemart.com) | Outage |
-| 352 | [adionlineshop.com](http://adionlineshop.com) | Outage |
-| 353 | [eshaeshop.com](http://eshaeshop.com) | Outage |
-| 354 | [ariyaonlineshop.com](http://ariyaonlineshop.com) | Outage |
-| 355 | [mjonlinemart.com](http://mjonlinemart.com) | Outage |
-| 356 | [bestebazar.com](http://bestebazar.com) | Outage |
-| 357 | [muniyaonlineshop.com](http://muniyaonlineshop.com) | Outage |
-| 358 | [helloshoppingbd24.com](http://helloshoppingbd24.com) | Outage |
-| 359 | [nadishaonlineshop.com](http://nadishaonlineshop.com) | Outage |
-| 360 | [horekmallbd.com](http://horekmallbd.com) | Outage |
-| 361 | [bondhonbazar04.com](http://bondhonbazar04.com) | Outage |
-| 362 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
-| 363 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
-| 364 | [janokbd.com](http://janokbd.com) | Outage |
-| 365 | [newarrivalmart.com](http://newarrivalmart.com) | Outage |
-| 366 | [icchabd.com](http://icchabd.com) | Paused |
+| 329 | [gharerproduct.com](http://gharerproduct.com) | Failed |
+| 330 | [asbabbd.com](http://asbabbd.com) | Outage |
+| 331 | [kalbtradebd.com](http://kalbtradebd.com) | Outage |
+| 332 | [jarifmart.com](http://jarifmart.com) | Outage |
+| 333 | [bsbazarbd.com](http://bsbazarbd.com) | Outage |
+| 334 | [netc24.com](http://netc24.com) | Outage |
+| 335 | [realgreenbd.com](http://realgreenbd.com) | Outage |
+| 336 | [kidsneedsbd.net](http://kidsneedsbd.net) | Outage |
+| 337 | [ibnatbd.com](http://ibnatbd.com) | Outage |
+| 338 | [nababazar.com](http://nababazar.com) | Outage |
+| 339 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
+| 340 | [akshopbd.com](http://akshopbd.com) | Outage |
+| 341 | [bigvaly.com](http://bigvaly.com) | Outage |
+| 342 | [alwajeed.com](http://alwajeed.com) | Outage |
+| 343 | [buyblendbd.com](http://buyblendbd.com) | Outage |
+| 344 | [growupzonebd.com](http://growupzonebd.com) | Outage |
+| 345 | [ayatcollection.com](http://ayatcollection.com) | Outage |
+| 346 | [comboshoppingbd.com](http://comboshoppingbd.com) | Outage |
+| 347 | [3eshopbd.com](http://3eshopbd.com) | Outage |
+| 348 | [sfonline.com](http://sfonline.com) | Outage |
+| 349 | [5starmartbd.com](http://5starmartbd.com) | Outage |
+| 350 | [abiremart.com](http://abiremart.com) | Outage |
+| 351 | [njonlineshopbd.com](http://njonlineshopbd.com) | Outage |
+| 352 | [labbaikemart.com](http://labbaikemart.com) | Outage |
+| 353 | [adionlineshop.com](http://adionlineshop.com) | Outage |
+| 354 | [eshaeshop.com](http://eshaeshop.com) | Outage |
+| 355 | [ariyaonlineshop.com](http://ariyaonlineshop.com) | Outage |
+| 356 | [mjonlinemart.com](http://mjonlinemart.com) | Outage |
+| 357 | [bestebazar.com](http://bestebazar.com) | Outage |
+| 358 | [muniyaonlineshop.com](http://muniyaonlineshop.com) | Outage |
+| 359 | [helloshoppingbd24.com](http://helloshoppingbd24.com) | Outage |
+| 360 | [nadishaonlineshop.com](http://nadishaonlineshop.com) | Outage |
+| 361 | [horekmallbd.com](http://horekmallbd.com) | Outage |
+| 362 | [bondhonbazar04.com](http://bondhonbazar04.com) | Outage |
+| 363 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
+| 364 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
+| 365 | [janokbd.com](http://janokbd.com) | Outage |
+| 366 | [newarrivalmart.com](http://newarrivalmart.com) | Outage |
+| 367 | [icchabd.com](http://icchabd.com) | Paused |
