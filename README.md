@@ -28,9 +28,9 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 - MySQL/MariaDB Database
 - Queue System for Background Jobs
 ## Our Deployments
-This platform is managing 🔥 $${\color{red}438}$$ 🔥 websites
+This platform is managing 🔥 $${\color{red}441}$$ 🔥 websites
 
-_Last updated: **2025-07-25 09:40:53 Asia/Dhaka**_
+_Last updated: **2025-07-27 09:49:37 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -422,53 +422,56 @@ _Last updated: **2025-07-25 09:40:53 Asia/Dhaka**_
 | 386 | [kalbtradebd.com](http://kalbtradebd.com) | Outage |
 | 387 | [jarifmart.com](http://jarifmart.com) | Outage |
 | 388 | [bsbazarbd.com](http://bsbazarbd.com) | Outage |
-| 389 | [bagstorebd.com](http://bagstorebd.com) | Outage |
-| 390 | [smbazarbd.com](http://smbazarbd.com) | Outage |
-| 391 | [netc24.com](http://netc24.com) | Outage |
-| 392 | [realgreenbd.com](http://realgreenbd.com) | Outage |
-| 393 | [kidsneedsbd.net](http://kidsneedsbd.net) | Outage |
-| 394 | [ibnatbd.com](http://ibnatbd.com) | Outage |
-| 395 | [nababazar.com](http://nababazar.com) | Outage |
-| 396 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
-| 397 | [akshopbd.com](http://akshopbd.com) | Outage |
-| 398 | [alambazar.com](http://alambazar.com) | Outage |
-| 399 | [alwajeed.com](http://alwajeed.com) | Outage |
-| 400 | [buyblendbd.com](http://buyblendbd.com) | Outage |
-| 401 | [dotbd24.com](http://dotbd24.com) | Outage |
-| 402 | [esopno.com](http://esopno.com) | Outage |
-| 403 | [flymartvaly.com](http://flymartvaly.com) | Outage |
-| 404 | [farukonlineshop.com](http://farukonlineshop.com) | Outage |
-| 405 | [growupzonebd.com](http://growupzonebd.com) | Outage |
-| 406 | [makprobd.com](http://makprobd.com) | Outage |
-| 407 | [malashop24.com](http://malashop24.com) | Outage |
-| 408 | [mrtshop24.com](http://mrtshop24.com) | Outage |
-| 409 | [myriadmartt.com](http://myriadmartt.com) | Outage |
-| 410 | [welcomezonebd.com](http://welcomezonebd.com) | Outage |
-| 411 | [nhindustrybd.com](http://nhindustrybd.com) | Outage |
-| 412 | [onekkichobd.com](http://onekkichobd.com) | Outage |
-| 413 | [optionbd24.com](http://optionbd24.com) | Outage |
-| 414 | [piuraonlineshop.com](http://piuraonlineshop.com) | Outage |
-| 415 | [pureneedbd.com](http://pureneedbd.com) | Outage |
-| 416 | [racebdshopping.com](http://racebdshopping.com) | Outage |
-| 417 | [ayatcollection.com](http://ayatcollection.com) | Outage |
-| 418 | [comboshoppingbd.com](http://comboshoppingbd.com) | Outage |
-| 419 | [3eshopbd.com](http://3eshopbd.com) | Outage |
-| 420 | [radiyamart.com](http://radiyamart.com) | Outage |
-| 421 | [rkmart24.com](http://rkmart24.com) | Outage |
-| 422 | [sfonline.com](http://sfonline.com) | Outage |
-| 423 | [shafinshop24.com](http://shafinshop24.com) | Outage |
-| 424 | [shahidshop24.com](http://shahidshop24.com) | Outage |
-| 425 | [shebashop24.com](http://shebashop24.com) | Outage |
-| 426 | [5starmartbd.com](http://5starmartbd.com) | Outage |
-| 427 | [abiremart.com](http://abiremart.com) | Outage |
-| 428 | [labbaikemart.com](http://labbaikemart.com) | Outage |
-| 429 | [eshaeshop.com](http://eshaeshop.com) | Outage |
-| 430 | [ariyaonlineshop.com](http://ariyaonlineshop.com) | Outage |
-| 431 | [mjonlinemart.com](http://mjonlinemart.com) | Outage |
-| 432 | [bestebazar.com](http://bestebazar.com) | Outage |
-| 433 | [muniyaonlineshop.com](http://muniyaonlineshop.com) | Outage |
-| 434 | [helloshoppingbd24.com](http://helloshoppingbd24.com) | Outage |
-| 435 | [horekmallbd.com](http://horekmallbd.com) | Outage |
-| 436 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
-| 437 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
-| 438 | [icchabd.com](http://icchabd.com) | Paused |
+| 389 | [sunnahshop24.com](http://sunnahshop24.com) | Outage |
+| 390 | [auroraemart.com](http://auroraemart.com) | Outage |
+| 391 | [neoprotidin.com](http://neoprotidin.com) | Outage |
+| 392 | [bagstorebd.com](http://bagstorebd.com) | Outage |
+| 393 | [smbazarbd.com](http://smbazarbd.com) | Outage |
+| 394 | [netc24.com](http://netc24.com) | Outage |
+| 395 | [realgreenbd.com](http://realgreenbd.com) | Outage |
+| 396 | [kidsneedsbd.net](http://kidsneedsbd.net) | Outage |
+| 397 | [ibnatbd.com](http://ibnatbd.com) | Outage |
+| 398 | [nababazar.com](http://nababazar.com) | Outage |
+| 399 | [arafshoppingbd.com](http://arafshoppingbd.com) | Outage |
+| 400 | [akshopbd.com](http://akshopbd.com) | Outage |
+| 401 | [alambazar.com](http://alambazar.com) | Outage |
+| 402 | [alwajeed.com](http://alwajeed.com) | Outage |
+| 403 | [buyblendbd.com](http://buyblendbd.com) | Outage |
+| 404 | [dotbd24.com](http://dotbd24.com) | Outage |
+| 405 | [esopno.com](http://esopno.com) | Outage |
+| 406 | [flymartvaly.com](http://flymartvaly.com) | Outage |
+| 407 | [farukonlineshop.com](http://farukonlineshop.com) | Outage |
+| 408 | [growupzonebd.com](http://growupzonebd.com) | Outage |
+| 409 | [makprobd.com](http://makprobd.com) | Outage |
+| 410 | [malashop24.com](http://malashop24.com) | Outage |
+| 411 | [mrtshop24.com](http://mrtshop24.com) | Outage |
+| 412 | [myriadmartt.com](http://myriadmartt.com) | Outage |
+| 413 | [welcomezonebd.com](http://welcomezonebd.com) | Outage |
+| 414 | [nhindustrybd.com](http://nhindustrybd.com) | Outage |
+| 415 | [onekkichobd.com](http://onekkichobd.com) | Outage |
+| 416 | [optionbd24.com](http://optionbd24.com) | Outage |
+| 417 | [piuraonlineshop.com](http://piuraonlineshop.com) | Outage |
+| 418 | [pureneedbd.com](http://pureneedbd.com) | Outage |
+| 419 | [racebdshopping.com](http://racebdshopping.com) | Outage |
+| 420 | [ayatcollection.com](http://ayatcollection.com) | Outage |
+| 421 | [comboshoppingbd.com](http://comboshoppingbd.com) | Outage |
+| 422 | [3eshopbd.com](http://3eshopbd.com) | Outage |
+| 423 | [radiyamart.com](http://radiyamart.com) | Outage |
+| 424 | [rkmart24.com](http://rkmart24.com) | Outage |
+| 425 | [sfonline.com](http://sfonline.com) | Outage |
+| 426 | [shafinshop24.com](http://shafinshop24.com) | Outage |
+| 427 | [shahidshop24.com](http://shahidshop24.com) | Outage |
+| 428 | [shebashop24.com](http://shebashop24.com) | Outage |
+| 429 | [5starmartbd.com](http://5starmartbd.com) | Outage |
+| 430 | [abiremart.com](http://abiremart.com) | Outage |
+| 431 | [labbaikemart.com](http://labbaikemart.com) | Outage |
+| 432 | [eshaeshop.com](http://eshaeshop.com) | Outage |
+| 433 | [ariyaonlineshop.com](http://ariyaonlineshop.com) | Outage |
+| 434 | [mjonlinemart.com](http://mjonlinemart.com) | Outage |
+| 435 | [bestebazar.com](http://bestebazar.com) | Outage |
+| 436 | [muniyaonlineshop.com](http://muniyaonlineshop.com) | Outage |
+| 437 | [helloshoppingbd24.com](http://helloshoppingbd24.com) | Outage |
+| 438 | [horekmallbd.com](http://horekmallbd.com) | Outage |
+| 439 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
+| 440 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
+| 441 | [icchabd.com](http://icchabd.com) | Paused |
