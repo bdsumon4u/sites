@@ -28,9 +28,9 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 - MySQL/MariaDB Database
 - Queue System for Background Jobs
 ## Our Deployments
-This platform is managing 🔥 $${\color{red}484}$$ 🔥 websites
+This platform is managing 🔥 $${\color{red}487}$$ 🔥 websites
 
-_Last updated: **2025-08-18 09:41:54 Asia/Dhaka**_
+_Last updated: **2025-08-19 09:13:36 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -491,30 +491,33 @@ _Last updated: **2025-08-18 09:41:54 Asia/Dhaka**_
 | 455 | [ouroxa.com](http://ouroxa.com) | Outage |
 | 456 | [ayatcollection.com](http://ayatcollection.com) | Outage |
 | 457 | [comboshoppingbd.com](http://comboshoppingbd.com) | Outage |
-| 458 | [3eshopbd.com](http://3eshopbd.com) | Outage |
-| 459 | [radiyamart.com](http://radiyamart.com) | Outage |
-| 460 | [rkmart24.com](http://rkmart24.com) | Outage |
-| 461 | [butterflyshop24.com](http://butterflyshop24.com) | Outage |
-| 462 | [sakidarbd.com](http://sakidarbd.com) | Outage |
-| 463 | [sakidasbd.com](http://sakidasbd.com) | Outage |
-| 464 | [hhkhanenterprise.com](http://hhkhanenterprise.com) | Outage |
-| 465 | [sfonline.com](http://sfonline.com) | Outage |
-| 466 | [shafinshop24.com](http://shafinshop24.com) | Outage |
-| 467 | [shahidshop24.com](http://shahidshop24.com) | Outage |
-| 468 | [shebashop24.com](http://shebashop24.com) | Outage |
-| 469 | [5starmartbd.com](http://5starmartbd.com) | Outage |
-| 470 | [hiragallery.com](http://hiragallery.com) | Outage |
-| 471 | [abiremart.com](http://abiremart.com) | Outage |
-| 472 | [labbaikemart.com](http://labbaikemart.com) | Outage |
-| 473 | [eshaeshop.com](http://eshaeshop.com) | Outage |
-| 474 | [ariyaonlineshop.com](http://ariyaonlineshop.com) | Outage |
-| 475 | [mjonlinemart.com](http://mjonlinemart.com) | Outage |
-| 476 | [bestebazar.com](http://bestebazar.com) | Outage |
-| 477 | [muniyaonlineshop.com](http://muniyaonlineshop.com) | Outage |
-| 478 | [helloshoppingbd24.com](http://helloshoppingbd24.com) | Outage |
-| 479 | [horekmallbd.com](http://horekmallbd.com) | Outage |
-| 480 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
-| 481 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
-| 482 | [icchabd.com](http://icchabd.com) | Paused |
-| 483 | [salevaly.com](http://salevaly.com) | Processing |
-| 484 | [myshodai.com](http://myshodai.com) | Processing |
+| 458 | [ahnafbd.com](http://ahnafbd.com) | Outage |
+| 459 | [3eshopbd.com](http://3eshopbd.com) | Outage |
+| 460 | [kroybari.com](http://kroybari.com) | Outage |
+| 461 | [sostashodai.com](http://sostashodai.com) | Outage |
+| 462 | [radiyamart.com](http://radiyamart.com) | Outage |
+| 463 | [rkmart24.com](http://rkmart24.com) | Outage |
+| 464 | [butterflyshop24.com](http://butterflyshop24.com) | Outage |
+| 465 | [sakidarbd.com](http://sakidarbd.com) | Outage |
+| 466 | [sakidasbd.com](http://sakidasbd.com) | Outage |
+| 467 | [hhkhanenterprise.com](http://hhkhanenterprise.com) | Outage |
+| 468 | [sfonline.com](http://sfonline.com) | Outage |
+| 469 | [shafinshop24.com](http://shafinshop24.com) | Outage |
+| 470 | [shahidshop24.com](http://shahidshop24.com) | Outage |
+| 471 | [shebashop24.com](http://shebashop24.com) | Outage |
+| 472 | [5starmartbd.com](http://5starmartbd.com) | Outage |
+| 473 | [hiragallery.com](http://hiragallery.com) | Outage |
+| 474 | [abiremart.com](http://abiremart.com) | Outage |
+| 475 | [labbaikemart.com](http://labbaikemart.com) | Outage |
+| 476 | [eshaeshop.com](http://eshaeshop.com) | Outage |
+| 477 | [ariyaonlineshop.com](http://ariyaonlineshop.com) | Outage |
+| 478 | [mjonlinemart.com](http://mjonlinemart.com) | Outage |
+| 479 | [bestebazar.com](http://bestebazar.com) | Outage |
+| 480 | [muniyaonlineshop.com](http://muniyaonlineshop.com) | Outage |
+| 481 | [helloshoppingbd24.com](http://helloshoppingbd24.com) | Outage |
+| 482 | [horekmallbd.com](http://horekmallbd.com) | Outage |
+| 483 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
+| 484 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
+| 485 | [icchabd.com](http://icchabd.com) | Paused |
+| 486 | [salevaly.com](http://salevaly.com) | Processing |
+| 487 | [myshodai.com](http://myshodai.com) | Processing |
