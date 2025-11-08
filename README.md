@@ -28,9 +28,9 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 - MySQL/MariaDB Database
 - Queue System for Background Jobs
 ## Our Deployments
-This platform is managing 🔥 $${\color{red}608}$$ 🔥 websites
+This platform is managing 🔥 $${\color{red}609}$$ 🔥 websites
 
-_Last updated: **2025-11-07 09:14:49 Asia/Dhaka**_
+_Last updated: **2025-11-08 09:07:19 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -639,6 +639,7 @@ _Last updated: **2025-11-07 09:14:49 Asia/Dhaka**_
 | 603 | [jannatbusinessmart.com](http://jannatbusinessmart.com) | Outage |
 | 604 | [necessaryshop24.com](http://necessaryshop24.com) | Outage |
 | 605 | [dorkar-shop.com](http://dorkar-shop.com) | Outage |
-| 606 | [icchabd.com](http://icchabd.com) | Paused |
-| 607 | [salevaly.com](http://salevaly.com) | Processing |
-| 608 | [myshodai.com](http://myshodai.com) | Processing |
+| 606 | [taslimashop.com](http://taslimashop.com) | Outage |
+| 607 | [icchabd.com](http://icchabd.com) | Paused |
+| 608 | [salevaly.com](http://salevaly.com) | Processing |
+| 609 | [myshodai.com](http://myshodai.com) | Processing |
