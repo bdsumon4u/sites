@@ -28,9 +28,9 @@ A Laravel-based automation system that seamlessly deploys feature updates and bu
 - MySQL/MariaDB Database
 - Queue System for Background Jobs
 ## Our Deployments
-This platform is managing 🔥 $${\color{red}709}$$ 🔥 websites
+This platform is managing 🔥 $${\color{red}710}$$ 🔥 websites
 
-_Last updated: **2026-02-25 10:24:54 Asia/Dhaka**_
+_Last updated: **2026-02-27 10:18:00 Asia/Dhaka**_
 
 | # | Domain | Status |
 |---|--------|--------|
@@ -743,3 +743,4 @@ _Last updated: **2026-02-25 10:24:54 Asia/Dhaka**_
 | 707 | [salevaly.com](http://salevaly.com) | Processing |
 | 708 | [myshodai.com](http://myshodai.com) | Processing |
 | 709 | [kenakatakori24.com](http://kenakatakori24.com) | Processing |
+| 710 | [furnomart.com](http://furnomart.com) | Processing |
